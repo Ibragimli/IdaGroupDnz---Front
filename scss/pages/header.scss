@@ -1,5 +1,6 @@
 header {
     transition: all 0.4s;
+
     #headers {
         z-index: 12 !important;
         background-color: #030303;
@@ -16,6 +17,7 @@ header {
                     height: 100%;
 
                     a {
+                        margin-left:80px;
                         color: white;
                         font-size: 24px;
                         display: flex;
@@ -38,6 +40,9 @@ header {
                         width: 100% !important;
 
                         button {
+                            margin-left: 115px;
+                            margin-top: 10px;
+
                             span {
                                 i {
                                     margin-left: 25px;
@@ -79,8 +84,9 @@ header {
 
             .navRow {
                 display: none;
+
                 .navbarNav {
-                 
+
                     ul {
                         width: 100% !important;
 
