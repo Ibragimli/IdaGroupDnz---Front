@@ -5,10 +5,12 @@
     justify-content: center;
     align-items: center; }
     #mainInfoSection .container .row .ftco-service-image .main-item .service a {
-      color: #ff8b00;
+      color: #292929;
       text-decoration: none;
       background-color: transparent; }
       #mainInfoSection .container .row .ftco-service-image .main-item .service a img {
+        width: 326px !important;
+        height: 216.79px !important;
         border-radius: 8px;
         margin-bottom: 30px;
         transition: .3s all ease-in-out; }
@@ -19,7 +21,7 @@
       line-height: 1.2; }
       #mainInfoSection .container .row .ftco-service-image .main-item .service div h3 a {
         transition: .3s all ease;
-        color: #ff8b00;
+        color: #292929;
         text-decoration: none;
         background-color: transparent; }
     #mainInfoSection .container .row .ftco-service-image .main-item .service div p {

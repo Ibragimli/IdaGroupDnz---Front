@@ -3,19 +3,23 @@
 
     .container {
         .row {
-            
+
             .ftco-service-image {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
                 .main-item {
                     .service {
                         a {
-                            color: #ff8b00;
+                            color: #292929;
                             text-decoration: none;
                             background-color: transparent;
+                           
 
                             img {
+                                width: 326px !important;
+                                height: 216.79px !important;
                                 border-radius: 8px;
                                 margin-bottom: 30px;
                                 transition: .3s all ease-in-out;
@@ -31,7 +35,7 @@
 
                                 a {
                                     transition: .3s all ease;
-                                    color: #ff8b00;
+                                    color: #292929;
                                     text-decoration: none;
                                     background-color: transparent;
                                 }
