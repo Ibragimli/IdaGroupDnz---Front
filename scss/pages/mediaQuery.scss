@@ -1,19 +1,27 @@
 @media only screen and (max-width: 992px) {
     header {
+        background-size: 100% 55vh !important;
         height: 45vh !important;
         transition: all 0.4s;
+
         #headers {
             .container {
                 .row {
                     display: flex !important;
                     justify-content: space-around !important;
-                    .unDisplayHead{
+
+                    .unDisplayHead {
                         display: none !important;
                     }
+
                     .headLogo {
 
                         a {
-                            img {margin-left: 60px !important;}
+                            font-size: 22px !important;
+
+                            img {
+                                margin-left: 60px !important;
+                            }
                         }
                     }
 
@@ -81,11 +89,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-   header{
-    height: 35vh !important;
-    transition: all 0.4s;
+    header {
+        height: 35vh !important;
+        transition: all 0.4s;
 
-   }
+    }
+
     #slider {
         .container {
             .row {
@@ -98,9 +107,7 @@
                                 justify-content: center !important;
 
                                 .item {
-                                    img {
-
-                                    }
+                                    img {}
                                 }
                             }
                         }

@@ -1,5 +1,6 @@
 @media only screen and (max-width: 992px) {
   header {
+    background-size: 100% 55vh !important;
     height: 45vh !important;
     transition: all 0.4s; }
     header #headers .container .row {
@@ -7,8 +8,10 @@
       justify-content: space-around !important; }
       header #headers .container .row .unDisplayHead {
         display: none !important; }
-      header #headers .container .row .headLogo a img {
-        margin-left: 60px !important; }
+      header #headers .container .row .headLogo a {
+        font-size: 22px !important; }
+        header #headers .container .row .headLogo a img {
+          margin-left: 60px !important; }
       header #headers .container .row .headNav {
         padding: 0 !important;
         margin: 0 !important;
