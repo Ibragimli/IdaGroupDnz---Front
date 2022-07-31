@@ -2,6 +2,8 @@
   padding: 40px 0px; }
   #slider .container .row .mainSlider {
     position: relative; }
+    #slider .container .row .mainSlider .item img {
+      border-radius: 8px; }
     #slider .container .row .mainSlider .owl-nav button {
       transition: all 0.4s;
       visibility: hidden;

@@ -1,16 +1,11 @@
 body {
     footer {
         #footUp {
-            background-color: #2B2B2B;
+            background-color: #292929;
             padding: 26px 0px 0px 0px;
 
             .container {
-                border-top: 1px solid #3a3a3a;
-                ;
-                border-left: 1px solid #3a3a3a;
-                ;
-                border-bottom: 1px solid #3a3a3a;
-                ;
+                border: 1px solid #80808024;
 
                 .row {
                     .footLeft {
@@ -22,7 +17,7 @@ body {
                         }
 
                         p {
-                            color: #747474;
+                            color: gray;
                             font-weight: 500;
                             font-size: 17px;
                             letter-spacing: 3px;
@@ -39,7 +34,7 @@ body {
                         }
 
                         p {
-                            color: #747474;
+                            color: gray;
                             font-weight: 500;
                             font-size: 17px;
                             padding: 5px 0px;
@@ -55,10 +50,11 @@ body {
                         }
 
                         p {
-                            color: #747474;
+                            color: gray;
                             font-weight: 500;
                             font-size: 17px;
                             padding: 5px 0px;
+                            font-family: system-ui !important;
                         }
                     }
                 }
@@ -67,15 +63,14 @@ body {
     }
 
     #footDown {
-        background-color: #2B2B2B;
+        background-color: #292929;
         padding: 0px 0px 4px 0px;
         .container {
-            border-left: 1px solid #3a3a3a;
-            border-bottom: 1px solid #3a3a3a;
+            border: 1px solid #80808024;
 
             .row {
                 .CopyrightText {
-                    color: #747474;
+                    color: gray;
 
                     a {}
                 }

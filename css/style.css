@@ -1,16 +1,14 @@
 body footer #footUp {
-  background-color: #2B2B2B;
+  background-color: #292929;
   padding: 26px 0px 0px 0px; }
   body footer #footUp .container {
-    border-top: 1px solid #3a3a3a;
-    border-left: 1px solid #3a3a3a;
-    border-bottom: 1px solid #3a3a3a; }
+    border: 1px solid #80808024; }
     body footer #footUp .container .row .footLeft h6 {
       color: #949494;
       padding: 0px 22px;
       font-size: 18px; }
     body footer #footUp .container .row .footLeft p {
-      color: #747474;
+      color: gray;
       font-weight: 500;
       font-size: 17px;
       letter-spacing: 3px; }
@@ -19,7 +17,7 @@ body footer #footUp {
       padding: 0px 22px;
       font-size: 18px; }
     body footer #footUp .container .row .footMiddle p {
-      color: #747474;
+      color: gray;
       font-weight: 500;
       font-size: 17px;
       padding: 5px 0px; }
@@ -28,19 +26,19 @@ body footer #footUp {
       padding: 0px 22px;
       font-size: 18px; }
     body footer #footUp .container .row .footRight p {
-      color: #747474;
+      color: gray;
       font-weight: 500;
       font-size: 17px;
-      padding: 5px 0px; }
+      padding: 5px 0px;
+      font-family: system-ui !important; }
 
 body #footDown {
-  background-color: #2B2B2B;
+  background-color: #292929;
   padding: 0px 0px 4px 0px; }
   body #footDown .container {
-    border-left: 1px solid #3a3a3a;
-    border-bottom: 1px solid #3a3a3a; }
+    border: 1px solid #80808024; }
     body #footDown .container .row .CopyrightText {
-      color: #747474; }
+      color: gray; }
 
 header {
   transition: all 0.4s; }
@@ -121,6 +119,8 @@ header {
   padding: 40px 0px; }
   #slider .container .row .mainSlider {
     position: relative; }
+    #slider .container .row .mainSlider .item img {
+      border-radius: 8px; }
     #slider .container .row .mainSlider .owl-nav button {
       transition: all 0.4s;
       visibility: hidden;
@@ -149,6 +149,7 @@ header {
   padding: 40px 0px; }
   #about .container .row .aboutText {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 10px; }
@@ -160,8 +161,9 @@ header {
       letter-spacing: 1px;
       margin: 15px 0px 10px 0px; }
     #about .container .row .aboutText p {
+      line-height: 21px;
       letter-spacing: 0.5px;
-      color: #4c4c4c; }
+      color: #6c757d; }
   #about .container .row .aboutImage {
     display: flex;
     align-items: center;
@@ -556,3 +558,35 @@ table {
   #slider .container .row .mainSlider .owl-stage-outer .owl-stage .owl-item {
     display: flex !important;
     justify-content: center !important; } }
+
+#mainInfoSection {
+  padding: 35px 0px; }
+  #mainInfoSection .container .row .ftco-service-image {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #mainInfoSection .container .row .ftco-service-image .main-item .service a {
+      color: #ff8b00;
+      text-decoration: none;
+      background-color: transparent; }
+      #mainInfoSection .container .row .ftco-service-image .main-item .service a img {
+        border-radius: 8px;
+        margin-bottom: 30px;
+        transition: .3s all ease-in-out; }
+    #mainInfoSection .container .row .ftco-service-image .main-item .service div h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2; }
+      #mainInfoSection .container .row .ftco-service-image .main-item .service div h3 a {
+        transition: .3s all ease;
+        color: #ff8b00;
+        text-decoration: none;
+        background-color: transparent; }
+    #mainInfoSection .container .row .ftco-service-image .main-item .service div p {
+      color: #999999;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      line-height: 1.7;
+      font-weight: 400;
+      font-size: 1rem; }

@@ -2,6 +2,7 @@
   padding: 40px 0px; }
   #about .container .row .aboutText {
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 10px; }
@@ -13,8 +14,9 @@
       letter-spacing: 1px;
       margin: 15px 0px 10px 0px; }
     #about .container .row .aboutText p {
+      line-height: 21px;
       letter-spacing: 0.5px;
-      color: #4c4c4c; }
+      color: #6c757d; }
   #about .container .row .aboutImage {
     display: flex;
     align-items: center;

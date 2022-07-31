@@ -1,0 +1,55 @@
+#mainInfoSection {
+    padding: 35px 0px;
+
+    .container {
+        .row {
+            
+            .ftco-service-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .main-item {
+                    .service {
+                        a {
+                            color: #ff8b00;
+                            text-decoration: none;
+                            background-color: transparent;
+
+                            img {
+                                border-radius: 8px;
+                                margin-bottom: 30px;
+                                transition: .3s all ease-in-out;
+                            }
+                        }
+
+                        div {
+                            h3 {
+                                font-size: 1.4rem;
+                                margin-bottom: 0.5rem;
+                                font-weight: 500;
+                                line-height: 1.2;
+
+                                a {
+                                    transition: .3s all ease;
+                                    color: #ff8b00;
+                                    text-decoration: none;
+                                    background-color: transparent;
+                                }
+                            }
+
+                            p {
+                                color: #999999;
+                                margin-top: 0;
+                                margin-bottom: 1rem;
+                                line-height: 1.7;
+                                font-weight: 400;
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
