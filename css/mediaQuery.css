@@ -5,6 +5,10 @@
     header #headers .container .row {
       display: flex !important;
       justify-content: space-around !important; }
+      header #headers .container .row .unDisplayHead {
+        display: none !important; }
+      header #headers .container .row .headLogo a img {
+        margin-left: 60px !important; }
       header #headers .container .row .headNav {
         padding: 0 !important;
         margin: 0 !important;

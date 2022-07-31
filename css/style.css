@@ -520,6 +520,10 @@ table {
     header #headers .container .row {
       display: flex !important;
       justify-content: space-around !important; }
+      header #headers .container .row .unDisplayHead {
+        display: none !important; }
+      header #headers .container .row .headLogo a img {
+        margin-left: 60px !important; }
       header #headers .container .row .headNav {
         padding: 0 !important;
         margin: 0 !important;
@@ -558,7 +562,7 @@ table {
     justify-content: center !important; } }
 
 #mainInfoSection {
-  padding: 35px 0px; }
+  padding: 40px 0px; }
   #mainInfoSection .container .row .ftco-service-image {
     display: flex;
     justify-content: center;
